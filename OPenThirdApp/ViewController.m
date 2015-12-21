@@ -32,7 +32,7 @@
      BOOL isCanOpenUrl = [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"ThisIsOpenUrlSchemes://"]];
      NSLog(@"isCanOpenUrl= : %d",isCanOpenUrl);
      if (isCanOpenUrl) {
-     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"ThisIsOpenUrlSchemes://?http://weibo.com/5704843494/profile?topnav=1&wvr=6&is_all=1"]];
+     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"ThisIsOpenUrlSchemes://?http://weibo.com/5704843494/profile?topnav=1&amp;wvr=6"]];
      }
 
      */
